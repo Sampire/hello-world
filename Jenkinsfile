@@ -1,6 +1,4 @@
 pipeline {
-    agent any
-   pipeline {
     agent any	
     stages {
         stage('Non-Parallel Stage') {
@@ -38,5 +36,5 @@ pipeline {
             }
         }
     }
-  }
 }
+
